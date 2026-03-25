@@ -10,7 +10,7 @@ require (
 	github.com/landlock-lsm/go-landlock v0.7.0
 	github.com/things-go/go-socks5 v0.0.5
 	golang.org/x/net v0.47.0
-	suah.dev/protect v1.2.3
+	suah.dev/protect v1.2.4
 )
 
 require (
