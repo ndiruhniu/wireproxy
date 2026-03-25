@@ -1,15 +1,15 @@
-module github.com/windtf/wireproxy
+module github.com/ndiruhniu/wireproxy
 
 go 1.26.0
 
 require (
 	github.com/MakeNowJust/heredoc/v2 v2.0.1
 	github.com/akamensky/argparse v1.4.0
+	github.com/amnezia-vpn/amneziawg-go v0.2.16
 	github.com/go-ini/ini v1.67.0
 	github.com/landlock-lsm/go-landlock v0.6.0
 	github.com/things-go/go-socks5 v0.0.5
 	golang.org/x/net v0.47.0
-	golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173
 	suah.dev/protect v1.2.3
 )
 
