@@ -15,8 +15,8 @@ import (
 	"github.com/landlock-lsm/go-landlock/landlock"
 
 	"github.com/akamensky/argparse"
-	"github.com/windtf/wireproxy"
-	"golang.zx2c4.com/wireguard/device"
+	"github.com/ndiruhniu/wireproxy"
+	"github.com/amnezia-vpn/amneziawg-go/device"
 	"suah.dev/protect"
 )
 
@@ -29,7 +29,7 @@ var default_config_paths = []string{
 	os.Getenv("HOME") + "/.config/wireproxy.conf",
 }
 
-var version = "1.0.8-dev"
+var version = "1.1.3"
 
 func panicIfError(err error) {
 	if err != nil {
