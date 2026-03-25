@@ -8,7 +8,7 @@ require (
 	github.com/amnezia-vpn/amneziawg-go v0.2.16
 	github.com/go-ini/ini v1.67.0
 	github.com/landlock-lsm/go-landlock v0.7.0
-	github.com/things-go/go-socks5 v0.0.5
+	github.com/things-go/go-socks5 v0.1.1
 	golang.org/x/net v0.52.0
 	suah.dev/protect v1.2.4
 )
