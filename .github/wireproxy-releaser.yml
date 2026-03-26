@@ -32,6 +32,8 @@ builds:
         goarch: arm
       - goos: android
         goarch: 386
+      - goos: android
+        goarch: amd64
     main: ./cmd/wireproxy/
     binary: wireproxy
 universal_binaries:
